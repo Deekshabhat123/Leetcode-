@@ -1,15 +1,4 @@
-The given code defines a method to add two numbers represented by linked lists and return the sum as a linked list. Here’s the explanation:
 
-Class Definition for ListNode:
-
-python
-Copy code
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-Function Definition:
 
 def addTwoNumbers(self, l1, l2):: This defines a method named addTwoNumbers which takes three arguments: self, l1 (the first linked list), and l2 (the second linked list).
 Initialization:
