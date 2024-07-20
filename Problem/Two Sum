@@ -1,6 +1,0 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        for i in range(len(nums)):    #loop for i index
-            for j in range(i+1, len(nums)): #loop for j index
-                if nums[i] + nums[j] == target:  #check if both add up to the target
-                    return i, j     #if yes, return their indices
